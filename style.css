@@ -177,12 +177,14 @@ margin-bottom:30px;
     color:#00f7ff;
 }
 .project-card{
+    text-decoration: none;
 background:#111;
 padding:8px;
 border-radius:10px;
 margin-bottom:20px;
 border:1px solid #333;
 transition:0.3s;
+
 }
 
 .project-card:hover{
@@ -191,7 +193,16 @@ border-color:#00f7ff;
 box-shadow:0 0 10px #00f7ff;
 }
 
+.card-link {
+  text-decoration: none; 
+  color: inherit;        
+  display: block;   }    
 
+.card-link:hover .project-card {
+  transform: translateY(-3px);
+  border-color: #00f7ff;
+  box-shadow: 0 0 10px #00f7ff;
+}
 
 
 #contact{
