@@ -247,7 +247,7 @@ transition:0.3s;
 
 .media:hover{
 color:#00f7ff;
-} */
+}  */
 
 *{
 margin:0;
@@ -258,7 +258,7 @@ scroll-behavior:smooth;
 }
 
 html{
-font-size:18px;
+font-size:20px;
 }
 
 body{
@@ -282,6 +282,7 @@ display:flex;
 align-items:center;
 justify-content:space-between;
 width:100%;
+height: 60px;
 }
 
 .logo{
@@ -307,7 +308,7 @@ color:#00f7ff;
 }
 
 section{
-padding:140px 12%;
+padding: 120px 12%;
 width:100%;
 }
 
@@ -401,6 +402,9 @@ font-size:2rem;
 #skills h3{
 color:#00f7ff;
 }
+.skills-list li{
+    padding: 15px;
+}
 
 .skills-list{
 margin-left:40px;
@@ -419,19 +423,23 @@ font-size:2rem;
 color:#00f7ff;
 }
 
+#projects p{
+    padding: 15px;
+}
+
 .project-card{
 background:#111;
-padding:14px;
+padding:20px;
 border-radius:10px;
-margin-bottom:20px;
+margin-bottom:25px;
 border:1px solid #333;
 transition:0.3s;
 }
 
 .project-card:hover{
-transform:translateY(-5px);
+transform:translateY(-1px);
 border-color:#00f7ff;
-box-shadow:0 0 14px #00f7ff;
+box-shadow:0 0 10px #00f7ff;
 }
 
 .card-link{
@@ -440,11 +448,6 @@ color:inherit;
 display:block;
 }
 
-.card-link:hover .project-card{
-transform:translateY(-5px);
-border-color:#00f7ff;
-box-shadow:0 0 14px #00f7ff;
-}
 
 #contact{
 text-align:center;
@@ -493,6 +496,11 @@ text-align:center;
 padding:25px;
 background:black;
 margin-top:40px;
+bottom: 0;
+}
+
+footer p{
+    padding-top: 15px;
 }
 
 .media{
